@@ -6,6 +6,7 @@ if (workbox) {
 	console.log("Yay! Workbox is loaded !");
 	workbox.precaching.precacheAndRoute([]);
 
+	
 	/* cache images in the e.g. others folder; edit to other folders 
     you got and config in the sw-config.js file */
 	workbox.routing.registerRoute(
